@@ -49,18 +49,6 @@
     color: #f00;
   }
 
-  /* ヘッダー画像 */
-  .header-image {
-    position: relative;
-    height: 400px;
-  }
-  
-  .header-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
   /* コンテンツ */
   main {
     max-width: 800px;
@@ -69,6 +57,18 @@
     background-color: #fff;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   }
+
+    /* ヘッダー画像 */
+    .header-image {
+      position: relative;
+      height: 400px;
+    }
+    
+    .header-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   
   /* フッター */
   footer {
